@@ -18,7 +18,7 @@ app = FastAPI(
 # --- CORS Configuration ---
 # Allow requests from your frontend
 origins = [
-    "https://slotswapper-ii0d.onrender.com",  # Vite dev server
+    "http://localhost:5173", "https://slotswapper-ii0d.onrender.com",  # Vite dev server
     # Add your production frontend URL here
 ]
 
