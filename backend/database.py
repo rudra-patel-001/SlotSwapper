@@ -10,7 +10,7 @@ load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
 
 if not DATABASE_URL:
-    raise ValueError("postgresql://postgres:Rudra%40002@localhost:5432/mydb")
+    raise ValueError("postgresql://slotswapperdb_user:hMUqm5fF2WN3AlvvQZ92bcNfD5uGp1Cn@dpg-d46apjjuibrs73flm69g-a/slotswapperdb")
 
 # Create the SQLAlchemy engine
 engine = create_engine(DATABASE_URL)
